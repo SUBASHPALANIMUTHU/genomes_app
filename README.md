@@ -1,8 +1,8 @@
-Genome Dashboard – Streamlit Web App
+# Genome Dashboard – Streamlit Web App
 
 A simple and interactive Streamlit application to visualize genome-related Excel data, explore year-wise submissions, filter by parameters, and generate charts automatically.
 
-Features
+# Features
 
 Uploads and reads Excel file(s) containing genome datasets
 
@@ -18,7 +18,7 @@ Error handling for missing files
 
 Ready for deployment on Streamlit Cloud / GitHub
 
-How to Run Locally
+# How to Run Locally
 1. Clone the repository
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 4. Run the Streamlit app
 streamlit run app.py
 
-Adding Your Excel File
+# Adding Your Excel File
 
 You must create a folder named data in the root of the repo and place:
 
@@ -44,7 +44,7 @@ data/genome_data.xlsx
 If the file is missing, the app will show:
 "Excel file not found!"
 
-Deployment (Streamlit Cloud)
+# Deployment (Streamlit Cloud)
 
 1. Upload entire project to GitHub
 
@@ -73,7 +73,7 @@ pandas
 altair
 openpyxl
 
-Notes
+# Notes
 
 Ensure your Excel file name and the path in app.py match exactly:
 
@@ -82,6 +82,6 @@ excel_path = "data/genome_data.xlsx"
 
 If you update the Excel file, re-upload it to the data folder and commit the change.
 
-Contact
+# Contact
 
 If you need help or improvements, feel free to raise an issue or contribute.
