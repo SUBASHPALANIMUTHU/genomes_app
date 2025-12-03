@@ -7,10 +7,15 @@ Features
 Uploads and reads Excel file(s) containing genome datasets
 
 Automatically detects sheets
+
 Year-wise submission statistics
+
 Interactive charts and tables
+
 Clean and responsive UI
+
 Error handling for missing files
+
 Ready for deployment on Streamlit Cloud / GitHub
 
 How to Run Locally
@@ -40,6 +45,7 @@ If the file is missing, the app will show:
 "Excel file not found!"
 
 Deployment (Streamlit Cloud)
+
 1. Upload entire project to GitHub
 
 Make sure your repo includes:
