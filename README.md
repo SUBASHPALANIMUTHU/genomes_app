@@ -46,7 +46,7 @@ If the file is missing, the app will show:
 
 # Deployment (Streamlit Cloud)
 
-1. Upload entire project to GitHub
+# 1. Upload entire project to GitHub
 
 Make sure your repo includes:
 
@@ -58,7 +58,7 @@ data/genome_data.xlsx
 
 README.md
 
-2. Go to Streamlit Cloud
+# 2. Go to Streamlit Cloud
 
 Create a new app → Select your GitHub repo → Select app.py.
 
